@@ -16,6 +16,7 @@ coverage
 
 # nyc test coverage
 .nyc_output
+.tap
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
@@ -35,3 +36,6 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+email-addresses-*.tgz
+.tap

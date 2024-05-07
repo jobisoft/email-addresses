@@ -1,5 +1,5 @@
 {
-  "version": "5.0.0",
+  "version": "5.0.1",
   "name": "email-addresses",
   "description": "An email address parser based on rfc5322",
   "keywords": [
@@ -18,12 +18,11 @@
     "lib": "./lib"
   },
   "main": "./lib/email-addresses.js",
-  "devDependencies": {
-    "libxmljs": "~0.19.7",
-    "tap": "^14.8.2"
-  },
+  "files": ["bower.json", "Changes.md", "lib"],
+  "devDependencies": { },
   "scripts": {
-    "test": "tap ./test"
+    "test": "node --test",
+    "cover": "npx -y c8 npm test"
   },
   "license": "MIT",
   "typings": "./lib/email-addresses.d.ts"
